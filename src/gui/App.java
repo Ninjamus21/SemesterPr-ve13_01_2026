@@ -5,8 +5,11 @@ import storage.Storage;
 
 public class App {
     public static void main(String[] args) {
-        Storage storage = new Storage();
+        initStorage();
         Application.launch(Gui.class);
     }
 
+    private static void initStorage() {
+
+    }
 }
